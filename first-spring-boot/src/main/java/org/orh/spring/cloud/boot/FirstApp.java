@@ -13,7 +13,8 @@ public class FirstApp {
     public static void main(String[] args) {
         new SpringApplicationBuilder(FirstApp.class)
                 .properties("spring.config.location=classpath:custom.yaml")
-                .properties("spring.profiles.active=prod")
+//                .properties("spring.profiles.active=test")
+                .properties("spring.profiles.active=test")
                 .run(args);
 
     }

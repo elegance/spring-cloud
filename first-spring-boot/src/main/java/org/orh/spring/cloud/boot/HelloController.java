@@ -13,8 +13,9 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        String rs = ctx.getEnvironment().getProperty("project.test");
-        return rs;
+        String rs = ctx.getEnvironment().getProperty("common.config");
+        String jdbc = ctx.getEnvironment().getProperty("project.jdbc");
+        return rs + ", jdbc:" + jdbc;
     }
 
 
