@@ -1,0 +1,12 @@
+
+
+
+eureka:
+  client:
+    # server 启动时，不需要以下 client 类的操作
+    # 不要把自己当做 client 取注册
+    register-with-eureka: false
+    # 不要去抓取注册信息
+    fetch-registry: false
+server:
+  port: 8761
