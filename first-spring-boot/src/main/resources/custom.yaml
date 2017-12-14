@@ -1,0 +1,6 @@
+spring:
+  profiles: prod
+
+# 公共配置
+project:
+  test: hello
