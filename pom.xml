@@ -10,6 +10,8 @@
     <modules>
         <module>first-spring-boot</module>
         <module>first-eureka</module>
+        <module>eureka-conf-health</module>
+        <module>eureka-conf-health</module>
     </modules>
     <packaging>pom</packaging>
     

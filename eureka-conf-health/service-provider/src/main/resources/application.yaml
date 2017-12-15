@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    # 10s 抓取一次服务列表
+    registry-fetch-interval-seconds: 10
+  instance:
+    # 5s 发送一个续约更新心跳包（演示使用）
+    lease-renewal-interval-in-seconds: 5
+    # 服务多久没有心跳包判断其为不可用
+    # 太长有可能导致流量路由到不存活的实例
+    # 太短有可能导致，短暂的网络故障，该实例可能被取消流量
+    lease-expiration-duration-in-seconds: 10
