@@ -68,3 +68,9 @@ service-provider:
     NFLoadBalancerRuleClassName: org.orh.spring.cloud.ch108.MyRule
 ```
 
+#### 3. spring cloud - LoadBalancerClient、SpringClientFactory
+
+spring cloud 容器中提供有:
+
+* `LoadBalancerClient`，可以获取服务实例：`loadBalancerClient.choose("service-provider")`
+* `SpringClientFactor` 可以获得负载均衡器实例 `springClientFactory.getLoadBalancer("service-provider");` 等信息
