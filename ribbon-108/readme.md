@@ -57,3 +57,14 @@ public class InvokeApp {
 
 
 * 第二种：只对具体的服务生效，新建`MyClient.java`，并使用`@RibbonClient(name = "service-provider", configuration = MyConfig.class)`注解修饰，其中`name`是我们要访问的服务，`configuration`为配置类，只不过此处的配置类不要`@Configuration`自动装载，而是交由`@RibbonClient`来触发装载。
+
+  ​
+
+另外我们可以在`application.yaml`文件中使用 [`ribbon` 配置](https://github.com/Netflix/ribbon/wiki/Working-with-load-balancers#components-of-load-balancer)的方式使自定义规则生效
+
+```yaml
+service-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: org.orh.spring.cloud.ch108.MyRule
+```
+
