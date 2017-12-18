@@ -7,8 +7,8 @@
 - [03 运行第一个Eureka程序](https://github.com/elegance/spring-cloud/tree/1-03/first-eureka)
 - [04 搭建Eureka集群](https://github.com/elegance/spring-cloud/tree/1-04/first-eureka)
 - [05 客户端健康检测与常用配置](https://github.com/elegance/spring-cloud/tree/1-05/eureka-conf-health)
-- 06 第一个Ribbon程序
-- 07 Ribbon负载均衡机制
+- [06 第一个Ribbon程序](https://github.com/elegance/spring-cloud/tree/1-06/first-ribbon)
+- [07 Ribbon负载均衡机制](https://github.com/elegance/spring-cloud/tree/1-07/ribbon-1-07)
 - 08 Spring中使用Ribbon
 - 09 RestTemplate负载均衡原理
 - 10 第一个Feign程序
