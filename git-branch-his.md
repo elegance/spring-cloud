@@ -37,4 +37,10 @@ git checkout -b 1-06 1-05
 git checkout master #切回master
 git merge 1-06 #将分支内容合并到 master
 git checkout 1-06
+git push origin 1-06
+```
+
+#### 1-07
+```bash
+git checkout -b 1-07 1-06
 ```
