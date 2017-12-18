@@ -12,6 +12,7 @@
         <module>first-eureka</module>
         <module>eureka-conf-health</module>
         <module>eureka-conf-health</module>
+        <module>first-ribbon</module>
     </modules>
     <packaging>pom</packaging>
     
