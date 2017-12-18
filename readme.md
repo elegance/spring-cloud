@@ -9,7 +9,7 @@
 - [05 客户端健康检测与常用配置](https://github.com/elegance/spring-cloud/tree/1-05/eureka-conf-health)
 - [06 第一个Ribbon程序](https://github.com/elegance/spring-cloud/tree/1-06/first-ribbon)
 - [07 Ribbon负载均衡机制](https://github.com/elegance/spring-cloud/tree/1-07/ribbon-1-07)
-- 08 Spring中使用Ribbon
+- [08 Spring中使用Ribbon](https://github.com/elegance/spring-cloud/tree/1-08/ribbon-108)
 - 09 RestTemplate负载均衡原理
 - 10 第一个Feign程序
 - 11 Feign使用
