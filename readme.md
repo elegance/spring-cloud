@@ -13,7 +13,7 @@
 - [09 RestTemplate负载均衡原理](https://github.com/elegance/spring-cloud/tree/1-09/resttemplate-lb-principle)
 - [10 第一个Feign程序](https://github.com/elegance/spring-cloud/tree/1-10/first-feign)
 - [11 Feign使用](https://github.com/elegance/spring-cloud/tree/2-01/feign-02)
-- 12 Feign注解翻译器
+- [12 Feign注解翻译器](https://github.com/elegance/spring-cloud/tree/2-02/feign-03)
 - 13 Spring Cloud整合Feign
 - 14 第一个Hystrix程序
 - 15 Hystrix的使用（一）
