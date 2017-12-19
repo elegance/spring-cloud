@@ -3,6 +3,7 @@ package org.orh.spring.cloud.ch106;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -15,13 +16,18 @@ public class ServiceApp {
         SpringApplication.run(ServiceApp.class, args);
     }
 
-    @GetMapping("/user")
-    public User user(HttpServletRequest request) {
+    @GetMapping("/user/{id}")
+    public User user(@PathVariable int id, HttpServletRequest request) {
         User user = new User();
         user.setUserName("XiaoXiao");
-        user.setAge(1);
+        user.setAge(id);
         user.setServerNodeInfo(request.getRequestURL().toString());
         return user;
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello";
     }
 
     static class User {

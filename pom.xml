@@ -16,6 +16,7 @@
         <module>ribbon-1-07</module>
         <module>ribbon-108</module>
         <module>resttemplate-lb-principle</module>
+        <module>first-feign</module>
     </modules>
     <packaging>pom</packaging>
     

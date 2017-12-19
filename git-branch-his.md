@@ -57,3 +57,9 @@ git push origin 1-08
 git checkout -b 1-09 1-08
 git push origin 1-09
 ```
+
+#### 1-10
+```bash
+git checkout -b 1-10 1-09
+git push origin 1-10
+```
