@@ -6,7 +6,9 @@
 
 #### 编写Feign客户端
 
-1. 定义访问接口
+1. 启动前面章节的http服务 [ServiceApp.java](https://github.com/elegance/spring-cloud/blob/1-10/first-ribbon/test-service/src/main/java/org/orh/spring/cloud/ch106/ServiceApp.java)
+
+2. 定义访问接口
 
    ```java
    public interface HelloClient {
@@ -19,7 +21,7 @@
    }
    ```
 
-2. 使用main方法测试
+3. 使用main方法测试
 
    ```java
    public class FeignMain {
@@ -35,6 +37,3 @@
        }
    }
    ```
-
-   ​
-
