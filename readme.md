@@ -10,7 +10,7 @@
 - [06 第一个Ribbon程序](https://github.com/elegance/spring-cloud/tree/1-06/first-ribbon)
 - [07 Ribbon负载均衡机制](https://github.com/elegance/spring-cloud/tree/1-07/ribbon-1-07)
 - [08 Spring中使用Ribbon](https://github.com/elegance/spring-cloud/tree/1-08/ribbon-108)
-- 09 RestTemplate负载均衡原理
+- [09 RestTemplate负载均衡原理](https://github.com/elegance/spring-cloud/tree/1-09/resttemplate-lb-principle)
 - 10 第一个Feign程序
 - 11 Feign使用
 - 12 Feign注解翻译器
