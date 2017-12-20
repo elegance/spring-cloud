@@ -25,6 +25,11 @@ public class InvokerApp {
         return serviceClient.hello("笑笑");
     }
 
+    @GetMapping("/hello")
+    public String hello() {
+        return serviceClient.helloWithoutArgs();
+    }
+
     @GetMapping("/get")
     public User getUser() {
         return serviceClient.getUser();

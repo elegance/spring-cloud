@@ -29,6 +29,11 @@ public class ServiceProvider {
         return "hello " + name;
     }
 
+    @GetMapping("/hello")
+    public String helloWithoutArgs() {
+        return "hello default";
+    }
+
     public static class User {
         private String userName;
         private int age;

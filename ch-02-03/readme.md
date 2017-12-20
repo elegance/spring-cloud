@@ -33,11 +33,71 @@
 #### 2. Feign 的默认配置
 
 * **解码器（Decoder）: bean名称为feignDecoder，ResponseEntityDecoder类**
+
 * **编码器（Encoder）:  bean名称为feignEncoder，SpringEncoder类**
+
 * **日志（Logger）：bean名称为feignLogger，Slf4jLogger类**
+
 * **注解翻译器（Contract）: bean名称为feignContract，SpringMvcContract类**
+
 * **Feign实例的创建者（Feign.Builder）: bean名称为feignBuilder，HystrixFeign.Builder类**
+
 * **Feign客户端（Client）: bean名称为feignClient，LoadBalancedFeignCliet类**
 
+  ​
 
+1. 配置注解翻译器
+   使用前面章节实现的`@MyUrl`与`MyConstract`配置注解翻译器
+
+   * 将`MyConstract`继承`SpringMvcContract`让其既能支持spring 的注解，也支持自定义注解：
+
+     ```java
+     public class MyContract extends SpringMvcContract {
+
+         @Override
+         protected void processAnnotationOnMethod(MethodMetadata methodMetadata, Annotation annotation, Method method) {
+             super.processAnnotationOnMethod(methodMetadata, annotation, method);
+             
+             if (annotation.annotationType().isAssignableFrom(MyUrl.class)) {
+                 MyUrl myUrl = method.getDeclaredAnnotation(MyUrl.class);
+                 String httpMethod = myUrl.method();
+                 String uri = myUrl.uri();
+
+                 methodMetadata.template()
+                         .method(httpMethod)
+                         .append(uri);
+             }
+         }
+     }
+     ```
+
+   * 新建配置类，让Spring 容器知道这个 注解翻译器的存在
+
+     ```java
+     @Configuration
+     public class MyContractConfig {
+
+         @Bean
+         public Contract myContract() {
+             return new MyContract();
+         }
+     }
+     ```
+
+   * 测试：在服务接口中使用自定义的注解，暴露服务访问是否成功
+
+#### 3. 可选配置
+
+* Logger.Level：接口日志的记录级别，相当于调用了Feign.Builder().logLevel 方法
+* Retryer：重试处理器
+* ErrorDecoder：异常解码器
+* RequestOptioins：设置请求的配置项
+* Collection<RequestInterceptor>：设置请求拦截器
+
+#### 4. 压缩配置
+
+* feign.compression.request.enabled
+* feign.compression.response.enabled
+* feign.compression.request.mime-types
+* feign.compression.request.min-request-size
 

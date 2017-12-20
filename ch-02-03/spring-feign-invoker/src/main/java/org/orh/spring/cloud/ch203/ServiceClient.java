@@ -1,5 +1,6 @@
 package org.orh.spring.cloud.ch203;
 
+import org.orh.spring.cloud.ch203.contract.MyUrl;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,4 +15,7 @@ public interface ServiceClient {
 
     @GetMapping("/user")
     public InvokerApp.User getUser();
+
+    @MyUrl(uri = "/hello", method = "GET")
+    public String helloWithoutArgs();
 }
