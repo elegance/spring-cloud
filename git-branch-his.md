@@ -93,3 +93,9 @@ git push origin 2-04
 git checkout -b 2-05 2-04
 git push origin 2-05
 ```
+
+#### 2-06
+```bash
+git checkout -b 2-06 2-05
+git push origin 2-06
+```
