@@ -18,6 +18,7 @@
         <module>resttemplate-lb-principle</module>
         <module>first-feign</module>
         <module>feign-03</module>
+        <module>ch-02-03</module>
     </modules>
     <packaging>pom</packaging>
     
