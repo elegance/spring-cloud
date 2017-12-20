@@ -16,7 +16,7 @@
 - [12 Feign注解翻译器](https://github.com/elegance/spring-cloud/tree/2-02/feign-03)
 - [13 Spring Cloud整合Feign](https://github.com/elegance/spring-cloud/tree/2-03/ch-02-03)
 - [14 第一个Hystrix程序](https://github.com/elegance/spring-cloud/tree/2-04/ch-02-04)
-- 15 Hystrix的使用（一）
+- [15 Hystrix的使用（一）](https://github.com/elegance/spring-cloud/tree/2-05/ch-02-05)
 - 16 Hystrix的使用（二）断路器
 - 17 Hystrix的使用（三）隔离与缓存
 - 18 Spring Cloud整合Hystrix（一）整合与配置
