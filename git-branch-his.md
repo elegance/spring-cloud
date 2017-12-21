@@ -107,3 +107,9 @@ git push origin 2-07
 git checkout master
 git merge 2-07 # 2-07 的修改合并到 master
 ```
+
+#### 2-08
+```bash
+git checkout -b 2-08 master # 基于master 建立 2-08
+git push origin 2-08
+```
