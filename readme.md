@@ -20,7 +20,7 @@
 - [16 Hystrix的使用（二）断路器](https://github.com/elegance/spring-cloud/tree/2-06/ch-02-06)
 - [17 Hystrix的使用（三）隔离、缓存、合并请求](https://github.com/elegance/spring-cloud/tree/2-07/ch-02-07)
 - [18 Spring Cloud整合Hystrix（一）整合与配置](https://github.com/elegance/spring-cloud/tree/2-08/ch-02-08)
-- 19 Spring Cloud整合Hystrix（二）请求合并与缓存
+- [19 Spring Cloud整合Hystrix（二）请求合并与缓存](https://github.com/elegance/spring-cloud/tree/2-09/ch-02-09)
 - 20 Spring Cloud整合Hystrix（三）整合Feign
 - 21 网关Zuul（一）介绍与使用
 - 22 网关Zuul（二）集群中使用Zuul
