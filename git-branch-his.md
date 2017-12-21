@@ -104,4 +104,6 @@ git push origin 2-06
 ```bash
 git checkout -b 2-07 2-06
 git push origin 2-07
+git checkout master
+git merge 2-07 # 2-07 的修改合并到 master
 ```
