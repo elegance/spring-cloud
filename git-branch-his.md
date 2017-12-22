@@ -124,4 +124,6 @@ git push origin 2-09
 ```bash
 git checkout -b 2-10 2-09
 git push origin 2-10
+git checkout master
+git merge 2-10 # 将 2-10 合回 master
 ```
