@@ -25,6 +25,7 @@
         <module>ch-02-07</module>
         <module>ch-02-08</module>
         <module>ch-02-09</module>
+        <module>ch-02-10</module>
     </modules>
     <packaging>pom</packaging>
     
@@ -49,10 +50,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka</artifactId>
         </dependency>
     </dependencies>
 
