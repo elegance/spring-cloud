@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-hy-server
+server:
+  port: 8761
+eureka:
+  client:
+    # 单节点测试使用，既不抓取，也不注册
+    fetch-registry: false
+    register-with-eureka: false
