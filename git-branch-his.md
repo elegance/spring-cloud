@@ -127,3 +127,8 @@ git push origin 2-10
 git checkout master
 git merge 2-10 # 将 2-10 合回 master
 ```
+
+#### 3-01
+```bash
+git checkout -b 3-01 master
+```
