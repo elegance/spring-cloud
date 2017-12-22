@@ -37,9 +37,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka</artifactId>
         </dependency>
+=======
+>>>>>>> 583bffa... 移除错误的eureka pom 引用
     </dependencies>
 </project>
