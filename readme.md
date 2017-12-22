@@ -23,7 +23,7 @@
 - [19 Spring Cloud整合Hystrix（二）请求合并与缓存](https://github.com/elegance/spring-cloud/tree/2-09/ch-02-09)
 - [20 Spring Cloud整合Hystrix（三）整合Feign、Hystrix监控](https://github.com/elegance/spring-cloud/tree/2-10/ch-02-10)
 - [21 网关Zuul（一）介绍与使用](https://github.com/elegance/spring-cloud/tree/3-01/ch-03-01)
-- 22 网关Zuul（二）集群中使用Zuul
+- [22 网关Zuul（二）集群中使用Zuul](https://github.com/elegance/spring-cloud/tree/3-02/ch-03-02)
 - 23 网关Zuul（三）路由配置
 - 24 网关Zuul（四）功能进阶
 - 25 消息驱动（一）Stream介绍
