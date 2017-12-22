@@ -133,3 +133,9 @@ git merge 2-10 # 将 2-10 合回 master
 git checkout -b 3-01 master
 git push origin 3-01
 ```
+
+#### 3-02
+```bash
+git checkout -b 3-02 3-01
+git push origin 3-02
+```

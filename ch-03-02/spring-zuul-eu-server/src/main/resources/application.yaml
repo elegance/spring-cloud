@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eu-server
+server:
+  port: 8761
+eureka:
+  client:
+    # 单机测试 不抓取，不注册
+    fetch-registry: false
+    register-with-eureka: false
