@@ -28,6 +28,7 @@
         <module>ch-02-10</module>
         <module>ch-03-01</module>
         <module>ch-03-02</module>
+        <module>ch-03-03</module>
     </modules>
     <packaging>pom</packaging>
     
