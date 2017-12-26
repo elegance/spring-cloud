@@ -26,7 +26,7 @@
 - [22 网关Zuul（二）集群中使用Zuul](https://github.com/elegance/spring-cloud/tree/3-02/ch-03-02)
 - [23 网关Zuul（三）路由配置](https://github.com/elegance/spring-cloud/tree/3-03/ch-03-03)
 - [24 网关Zuul（四）功能进阶](https://github.com/elegance/spring-cloud/tree/3-04/ch-03-04)
-- 25 消息驱动（一）Stream介绍
+- [25 消息驱动（一）Stream介绍](https://github.com/elegance/spring-cloud/tree/3-05/ch-03-05)
 - 26 消息驱动（二）RabbitMQ的使用
 - 27 消息驱动（三）Kafka的使用
 - 28 消息驱动（四）整合Spring Cloud
