@@ -174,4 +174,6 @@ git push origin 3-07
 ```bash
 git checkout -b 3-08 3-07
 git push origin 3-08
+git checkout master
+git merge origin-3-08
 ```
