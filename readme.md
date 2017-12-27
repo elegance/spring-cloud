@@ -30,7 +30,7 @@
 - [26 消息驱动（二）RabbitMQ的使用](https://github.com/elegance/spring-cloud/tree/3-06/ch-03-06)
 - [27 消息驱动（三）Kafka的使用](https://github.com/elegance/spring-cloud/tree/3-07/ch-03-07)
 - [28 消息驱动（四）整合Spring Cloud](https://github.com/elegance/spring-cloud/tree/3-08/ch-03-08)
-- 29 配置中心（一）概述
+- [29 配置中心（一）概述](https://github.com/elegance/spring-cloud/tree/4-01/ch-04-01)
 - 30 配置中心（二）第一个例子
 - 31 配置中心（三）配置加密
 - 32 配置中心（四）常用配置
