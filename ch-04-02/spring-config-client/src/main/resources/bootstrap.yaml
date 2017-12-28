@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      profile: dev
+      name: spring-client
+management:
+  security:
+    enabled: false

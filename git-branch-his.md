@@ -183,3 +183,9 @@ git merge origin-3-08
 git checkout -b 4-01 master
 git push origin 4-01
 ```
+
+#### 4-02
+```bash
+git checkout -b 4-02 4-01
+git push origin 4-02
+```
