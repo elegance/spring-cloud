@@ -33,7 +33,7 @@
 - [29 配置中心（一）概述](https://github.com/elegance/spring-cloud/tree/4-01/ch-04-01)
 - [30 配置中心（二）第一个例子](https://github.com/elegance/spring-cloud/tree/4-02/ch-04-02)
 - [31 配置中心（三）配置加密](https://github.com/elegance/spring-cloud/tree/4-03/ch-04-03)
-- 32 配置中心（四）常用配置
+- [32 配置中心（四）常用配置](https://github.com/elegance/spring-cloud/tree/4-04/ch-04-04)
 - 33 配置中心（五）Spring Cloud使用配置中心
 - 34 微服务与数据库（一）Spring Data与JPA
 - 35 微服务与数据库（二）JPA数据查询
