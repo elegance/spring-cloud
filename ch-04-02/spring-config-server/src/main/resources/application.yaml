@@ -20,3 +20,7 @@ encrypt:
     password: changeme
     alias: mytestkey
     secret: changeme
+security:
+  user:
+    name: user
+    password: 123456

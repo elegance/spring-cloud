@@ -35,11 +35,11 @@ public class ClientApp {
         return env.getProperty(propName);
     }
 
-    @Value("${test.user.name}")
-    private String name;
-
-    @GetMapping("/name")
-    public String name() {
-        return this.name;
-    }
+//    @Value("${test.user.name}")
+//    private String name;
+//
+//    @GetMapping("/name")
+//    public String name() {
+//        return this.name;
+//    }
 }
