@@ -9,3 +9,14 @@ spring:
 management:
   security:
     enabled: false
+# 配置 对称密码方式
+#encrypt:
+#  key: aggred-cipher-abc
+
+# 非对称加密
+encrypt:
+  key-store:
+    location: classpath:/orh-server.jks
+    password: changeme
+    alias: mytestkey
+    secret: changeme
