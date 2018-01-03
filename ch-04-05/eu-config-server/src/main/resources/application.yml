@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: eu-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.home}/config-repo
+server:
+  port: 8899
+
+# 配置加密的对称密钥
+encrypt:
+  key: cipher-abc
+
+# 配置服务注册到eureka服务中心，可部署多个达到高可用
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# 访问配置 需要用户名密码
+security:
+  user:
+    name: root
+    password: 123456
+management:
+  security:
+    enabled: false
+

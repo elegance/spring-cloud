@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eu-zuul
+  cloud:
+    config:
+      # 服务发现的方式来取配置
+      discovery:
+        enabled: true
+        service-id: eu-config-server
+      username: root
+      password: 123456
+      profile: dev,bus
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false

@@ -17,7 +17,7 @@ management:
 encrypt:
   key-store:
     location: classpath:/orh-server.jks
-    password: changeme
+    password: changemE
     alias: mytestkey
     secret: changeme
 security:
