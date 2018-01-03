@@ -35,6 +35,7 @@
         <module>ch-03-08</module>
         <module>ch-04-02</module>
         <module>ch-04-05</module>
+        <module>ch-04-06</module>
     </modules>
     <packaging>pom</packaging>
     
