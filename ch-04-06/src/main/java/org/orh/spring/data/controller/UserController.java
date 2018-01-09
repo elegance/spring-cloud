@@ -37,4 +37,24 @@ public class UserController {
         user.setId(id);
         return  userService.update(user);
     }
+
+    @GetMapping("/user/qname")
+    public User findByUsername(String username) {
+        return  userService.findByUsername(username);
+    }
+
+    @GetMapping("/user/qname2")
+    public List<User> findByUsername2(String username) {
+        return  userService.findByUsername2(username);
+    }
+
+    @GetMapping("/user/jpqlName")
+    public List<User> Name(String name) {
+        return  userService.findJPQLName(name);
+    }
+
+    @GetMapping("/user/nativeName")
+    public List<User> nativeLkName(String name) {
+        return  userService.findNativeQuery(name);
+    }
 }

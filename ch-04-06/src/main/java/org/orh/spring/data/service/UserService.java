@@ -32,4 +32,20 @@ public class UserService {
     public User findByUserId(long id) {
         return userRepository.findOne(id);
     }
+
+    public User findByUsername(String username) {
+        return userRepository.findByUsername(username);
+    }
+
+    public List<User> findByUsername2(String username) {
+        return userRepository.username(username);
+    }
+
+    public List<User> findJPQLName(String name) {
+        return userRepository.findJPQLQuery(name);
+    }
+
+    public List<User> findNativeQuery(String name) {
+        return userRepository.findNativeQuery(name);
+    }
 }
