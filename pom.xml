@@ -8,34 +8,6 @@
     <artifactId>spring-cloud</artifactId>
     <version>1.0.0</version>
     <modules>
-        <module>first-spring-boot</module>
-        <module>first-eureka</module>
-        <module>eureka-conf-health</module>
-        <module>eureka-conf-health</module>
-        <module>first-ribbon</module>
-        <module>ribbon-1-07</module>
-        <module>ribbon-108</module>
-        <module>resttemplate-lb-principle</module>
-        <module>first-feign</module>
-        <module>feign-03</module>
-        <module>ch-02-03</module>
-        <module>ch-02-04</module>
-        <module>ch-02-05</module>
-        <module>ch-02-06</module>
-        <module>ch-02-07</module>
-        <module>ch-02-08</module>
-        <module>ch-02-09</module>
-        <module>ch-02-10</module>
-        <module>ch-03-01</module>
-        <module>ch-03-02</module>
-        <module>ch-03-03</module>
-        <module>ch-03-04</module>
-        <module>ch-03-06</module>
-        <module>ch-03-07</module>
-        <module>ch-03-08</module>
-        <module>ch-04-02</module>
-        <module>ch-04-05</module>
-        <module>ch-04-06</module>
         <module>ch-04-08</module>
     </modules>
     <packaging>pom</packaging>

@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:~/.h2/ch-04-06
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
