@@ -1,6 +1,10 @@
-## 疯狂Spring Cloud微服务架构实战
+## Spring Cloud微服务架构实战
 
-每一章节的代码在不同的分支中，点击链接可以直接进入。
+通过系列章节可以对Spring Cloud相关的的模块有个全面的了解，包括Eureka注册中心、Ribbon负载均衡、Feign声明式的模板化的HTTP客户端、Hsystrix断路器(缓存、合并请求)、Zuul接口网关、Stream消息驱动(kafka/rabbitmq)、配置中心，另外不同的版本可能会有差异，具体的实现可以结合[Spring Cloud 官方文档](https://projects.spring.io/spring-cloud/)
+
+最后面三节简要的介绍了Spring Data系列，Spring Data JPA操作关系型数据库，Spring Data MongoDB操作MongoDB，学习了前者可以发现后者的编程模型与前面都是类似的，学习起来会有熟悉的感觉，具体更多的开发内容[Spring Data 官方文档](https://projects.spring.io/spring-data/)详细的提供。
+
+每一章节的代码在不同的分支中，点击链接可以直接进入。如果clone到本地，在master主干下可以导入全部项目，如果机器配置有限不能同时导入这么多项目，或者关注其中部分例子，可以切换到具体的分支再导入。
 
 - [01 Spring Cloud介绍与环境搭建](https://github.com/elegance/spring-cloud/tree/1-01)
 - [02 Spring Boot使用](https://github.com/elegance/spring-cloud/tree/1-02/first-spring-boot)
