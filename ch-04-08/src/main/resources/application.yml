@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://10.8.1.32:27017/my_db
+#> use my_db
+#> db.Person.insert({name: "xiaoxiao", age: NumberInt(33), company: "AAA Company"})
+#> db.Person.insert({name: "Jim", age: NumberInt(18), company: "BBB Company"})
