@@ -1,4 +1,4 @@
-package groovy.filters
+package groovy
 
 import com.netflix.zuul.ZuulFilter
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants

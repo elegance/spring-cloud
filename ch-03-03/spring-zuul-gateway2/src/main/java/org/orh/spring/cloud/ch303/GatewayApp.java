@@ -32,7 +32,7 @@ public class GatewayApp {
         String resourceDir = Thread.currentThread().getContextClassLoader().getResource("").getPath();
 
         // 读取配置，获取本项目目录
-        String scriptRoot = System.getProperty("zuul.filter.root", resourceDir + File.separator + "groovy/filters");
+        String scriptRoot = System.getProperty("zuul.filter.root", resourceDir + File.separator + "groovy");
         System.out.println("动态过滤器，监控目录：" + scriptRoot);
 
         // 获取刷新间隔
